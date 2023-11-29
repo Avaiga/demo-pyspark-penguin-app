@@ -23,7 +23,7 @@ focuses on the seamless integration of Pytorch (a distributed computing framwork
 
 ## How to run
 
-This demo works with a Python version superior to 3.8. Install the dependencies of the *requirements.txt* and run the *penguin_spark_app.py*.
+This demo works with a Python version superior to 3.8. Install the dependencies of the *requirements.txt* and run the *main.py*.
 
 ## Introduction
 We'll design a workflow which performs two main tasks:
@@ -44,7 +44,7 @@ We'll design a workflow which performs two main tasks:
         ├─ `penguin.csv`: a sample dataset.
     - `penguin_spark_app.py`: Script running our spark instance.
     - `config.py`: Taipy configuration which models our data workflow.
-    - `main.py`: Functions and Taipy code.
+    - `main.py`: Script creating application.
 - `CODE_OF_CONDUCT.md`: Code of conduct for members and contributors of _demo-dask-customer-analysis_.
 - `CONTRIBUTING.md`: Instructions to contribute to _demo-dask-customer-analysis_.
 - `INSTALLATION.md`: Instructions to install _demo-dask-customer-analysis_.
