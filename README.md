@@ -1,20 +1,20 @@
-# Demo Pytorch Penguin App
+# Demo PySpark Penguin App
 
 ## Usage
 - [Usage](#usage)
-- [Demo Pytorch Penguin App](#what-is-demo-pytorch-penguin-app)
+- [Demo PySpark Penguin App](#what-is-demo-pyspark-penguin-app)
 - [Directory Structure](#directory-structure)
 - [License](#license)
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [Code of conduct](#code-of-conduct)
 
-## What is Demo Pytorch Penguin App
+## What is Demo PySpark Penguin App
 
 Taipy is a Python library for creating Business Applications. More information on our
 [website](https://www.taipy.io).
 
-[Demo Pytorch Penguin App](https://github.com/Avaiga/demo-pytorch-penguin-app) 
+[Demo PySpark Penguin App](https://github.com/Avaiga/demo-pytorch-penguin-app) 
 focuses on the seamless integration of Pytorch (a distributed computing framwork - enabling large scale data processing) with Taipy, a Python library used for pipeline orchestration and scenario management.
 
 ### Demo Type
@@ -41,10 +41,10 @@ We'll design a workflow which performs two main tasks:
 
 - `src/`: Contains the demo source code.
     - `data/`
-        ├─ `penguin.csv`: a sample dataset.
-    - `penguin_spark_app.py`: Script running our spark instance.
+        ├─ `penguin.csv`: the data as downloaded from the palmerpenguins git repo.
+    - `penguin_spark_app.py`: Spark application.
     - `config.py`: Taipy configuration which models our data workflow.
-    - `main.py`: Script creating application.
+    - `main.py`: the main script (including our application gui).
 - `CODE_OF_CONDUCT.md`: Code of conduct for members and contributors of _demo-dask-customer-analysis_.
 - `CONTRIBUTING.md`: Instructions to contribute to _demo-dask-customer-analysis_.
 - `INSTALLATION.md`: Instructions to install _demo-dask-customer-analysis_.
