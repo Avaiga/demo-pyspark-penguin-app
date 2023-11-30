@@ -15,7 +15,7 @@ Taipy is a Python library for creating Business Applications. More information o
 [website](https://www.taipy.io).
 
 [Demo PySpark Penguin App](https://github.com/Avaiga/demo-pytorch-penguin-app) 
-focuses on the seamless integration of Pytorch (a distributed computing framwork - enabling large scale data processing) with Taipy, a Python library used for pipeline orchestration and scenario management.
+focuses on the seamless integration of PySpark (Empowering big data processing with Python simplicity and Spark speed) with Taipy, a Python library used for pipeline orchestration and scenario management.
 
 ### Demo Type
 - **Level**: Intermediate
