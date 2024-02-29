@@ -89,7 +89,7 @@ main_md = """
 
 ## Output
 
-**<|{str(selected_scenario.output.read()) if selected_scenario and selected_scenario.output.is_ready_for_reading else 'Submit the scenario using the left panel.'}|text|raw|class_name=color-primary|>**
+**<|{str(selected_scenario.selection_mean.read()) if selected_scenario and selected_scenario.selection_mean.is_ready_for_reading else 'Submit the scenario using the left panel.'}|text|raw|class_name=color-primary|>**
 
 ## Data node inspector
 

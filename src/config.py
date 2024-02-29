@@ -29,9 +29,7 @@ species_cfg = Config.configure_data_node(id="species")  # "Adelie", "Chinstrap",
 island_cfg = Config.configure_data_node(id="island")  # "Biscoe", "Dream", "Torgersen"
 sex_cfg = Config.configure_data_node(id="sex")  # "male", "female"
 
-output_cfg = Config.configure_json_data_node(
-    id="output",
-)
+output_cfg = Config.configure_json_data_node(id="selection_mean")
 
 # -------------------- Tasks --------------------
 
